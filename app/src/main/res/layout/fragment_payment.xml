@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.PaymentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/menu_shape"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="90dp"
+                android:text="Make a Payment"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="118dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="-20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="28dp"
+            android:text="Choose Recipient"
+            android:textColor="#979393"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="-24dp"
+            android:src="@drawable/arrow"
+            app:tint="#979393" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="-126dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/color1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="**** * *** ****2345"
+                    android:textColor="#979393"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="James Oliver"
+                    android:textColor="@color/bluedark"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="90dp"
+                    android:src="@drawable/oval"
+                    app:tint="@color/white" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="-126dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/color1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="**** * *** ****2345"
+                    android:textColor="#979393"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Lara Miller"
+                    android:textColor="@color/bluedark"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="90dp"
+                    android:src="@drawable/oval"
+                    app:tint="@color/white" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="-126dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/color1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="**** * *** ****2345"
+                    android:textColor="#979393"
+                    android:textStyle="normal"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="James Oliver"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/bluedark"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/oval"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="120dp"
+                    app:tint="@color/white" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="-126dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/color1"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="1dp">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="**** * *** ****2345"
+                android:textColor="#979393"
+                android:textStyle="normal"
+                android:textSize="14sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lara Miller"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/bluedark"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/oval"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginStart="120dp"
+                    app:tint="@color/white" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegister"
+            android:layout_width="260dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="New Recipient"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/appcompat_2"/>
+
+    </LinearLayout>
+
+</FrameLayout>

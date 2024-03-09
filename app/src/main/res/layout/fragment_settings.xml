@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/menu_shape"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="150dp"
+                android:text="Settings"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="118dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="-20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="New Recipient"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/settings_btn"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn2"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Unlock You Card"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="#8A8686"
+            android:background="@drawable/settings_btn2"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn3"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Spending Limits"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="#8A8686"
+            android:background="@drawable/settings_btn2"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Security Settings"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="#8A8686"
+            android:background="@drawable/settings_btn2"/>
+
+    </LinearLayout>
+
+</FrameLayout>

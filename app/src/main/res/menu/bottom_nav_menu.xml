@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/account_overview"
+        android:icon="@drawable/mouse"
+        android:title=""/>
+    <item android:id="@+id/Payment"
+        android:icon="@drawable/telegram"
+        android:title=""/>
+    <item android:id="@+id/Stats"
+        android:icon="@drawable/diagram"
+        android:title=""/>
+    <item android:id="@+id/Settings"
+        android:icon="@drawable/web"
+        android:iconTint="#1200FF"
+        android:title=""/>
+
+</menu>
